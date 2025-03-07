@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GreenBreath - An innovative photocatalytic carbon capture solution for air purification and sustainability.">
+    <meta name="keywords" content="GreenBreath, Carbon Capture, Air Purification, Climate Change, Sustainable Tech">
+    <meta name="author" content="Your Name">
+    <title>GreenBreath - Revolutionizing Air Purification</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link rel="icon" type="image/x-icon" href="GreenBreath_logo__transparent__professional__suitable_for_all_backgrounds-removebg-preview.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideUp {
+            from { transform: translateY(20px); }
+            to { transform: translateY(0); }
+        }
+
+        .animate-fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .animate-slide-up {
+            animation: slideUp 1s ease-in-out;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-20px);
+            }
+            60% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .animate-bounce {
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes rotateAccelerate {
+            0% {
+                transform: scale(1) rotate(0deg);
+            }
+            50% {
+                transform: scale(0.9) rotate(180deg);
+            }
+            100% {
+                transform: scale(1) rotate(360deg);
+            }
+        }
+
+        @keyframes rotateDecelerate {
+            0% {
+                transform: scale(1) rotate(360deg);
+            }
+            100% {
+                transform: scale(1) rotate(0deg);
+            }
+        }
+
+        .logo-hover {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .logo-hover:hover {
+            animation: rotateAccelerate 2s linear forwards;
+        }
+
+        .logo-hover:not(:hover) {
+            animation: rotateDecelerate 2s ease-out forwards;
+        }
+
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <!-- Navbar -->
+    <nav class="fixed w-full bg-black bg-opacity-90 flex justify-between items-center px-6 py-4 z-50 shadow-md">
+        <div class="flex items-center gap-4 bg-[#FFFFF0] p-2 rounded-md">
+            <img src="GreenBreath_logo__transparent__professional__suitable_for_all_backgrounds-removebg-preview.png" alt="GreenBreath Symbol" class="w-12 drop-shadow-md logo-hover">
+            <img src="GreenBreath_UltraHD_Logo.png" alt="GreenBreath Logo" class="w-48 drop-shadow-md">
+        </div>
+        <ul class="hidden md:flex space-x-6 text-white font-semibold">
+            <li><a href="#about" class="hover:text-green-400">About</a></li>
+            <li><a href="#technology" class="hover:text-green-400">Technology</a></li>
+            <li><a href="#impact" class="hover:text-green-400">Impact</a></li>
+            <li><a href="#team" class="hover:text-green-400">Team</a></li>
+            <li><a href="#contact" class="hover:text-green-400">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="h-screen flex flex-col items-center justify-center text-center bg-gray-900 text-white px-6">
+        <h1 class="text-5xl font-bold mb-4 animate-fade-in">Revolutionizing Air Purification</h1>
+        <p class="text-xl max-w-3xl animate-slide-up">
+            GreenBreath is an innovative air purification system that captures and breaks down CO₂ and other greenhouse gases using advanced photocatalysis.
+        </p>
+        <a href="#about" class="mt-6 px-6 py-3 bg-green-500 text-white rounded-lg text-lg font-semibold hover:bg-green-600 transition animate-bounce">Learn More</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 px-6 bg-white text-center">
+        <h2 class="text-4xl font-bold mb-4">About GreenBreath</h2>
+        <p class="text-lg max-w-4xl mx-auto">
+            GreenBreath is designed to reduce carbon emissions using advanced **photocatalytic technology**. Our mission is to create a sustainable and healthier future.
+        </p>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="technology" class="py-16 px-6 bg-gray-100 text-center">
+        <h2 class="text-4xl font-bold mb-4">Our Technology</h2>
+        <p class="text-lg max-w-4xl mx-auto">
+            Using **Titanium Dioxide (TiO₂) and UV light**, GreenBreath efficiently separates CO₂ into carbon and oxygen, ensuring an eco-friendly air purification process.
+        </p>
+    </section>
+
+    <!-- Impact Section -->
+    <section id="impact" class="py-16 px-6 bg-white text-center">
+        <h2 class="text-4xl font-bold mb-4">Environmental Impact</h2>
+        <p class="text-lg max-w-4xl mx-auto">
+            Our system helps **combat climate change** by reducing carbon footprints and improving air quality worldwide.
+        </p>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="py-16 px-6 bg-gray-100 text-center">
+        <h2 class="text-4xl font-bold mb-4">Meet Our Team</h2>
+        <p class="text-lg max-w-4xl mx-auto">
+            Our passionate team of engineers, scientists, and environmentalists is dedicated to making GreenBreath a global success.
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 px-6 bg-white text-center">
+        <h2 class="text-4xl font-bold mb-4">Contact Us</h2>
+        <p>Email: <a href="mailto:info@greenbreath.com" class="text-green-500">contact.aakashbeshra@gmail.com</a></p>
+        <p>Phone: +91 9182398208</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 bg-black text-white text-center">
+        <p>&copy; 2024 GreenBreath. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector(".nav-links").classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
